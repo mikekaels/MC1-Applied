@@ -8,12 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var helloWorldLabel: UILabel!
     //Hello World
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        helloWorldLabel.text = "I'm Inside"
     }
 
-
+    
 }
 
