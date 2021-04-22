@@ -14,6 +14,7 @@
 		BD4A500D262ACC3500BB8F4B /* MC1_Applied.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD4A500B262ACC3500BB8F4B /* MC1_Applied.xcdatamodeld */; };
 		BD4A500F262ACC3500BB8F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4A500E262ACC3500BB8F4B /* Assets.xcassets */; };
 		BD4A5012262ACC3500BB8F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4A5010262ACC3500BB8F4B /* LaunchScreen.storyboard */; };
+		BDCDAE8D26317B4E002E29D9 /* SpeechToTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCDAE8C26317B4E002E29D9 /* SpeechToTextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BD4A500E262ACC3500BB8F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD4A5011262ACC3500BB8F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD4A5013262ACC3500BB8F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDCDAE8C26317B4E002E29D9 /* SpeechToTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechToTextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				BD4A5006262ACC3500BB8F4B /* ViewController.swift */,
+				BDCDAE8C26317B4E002E29D9 /* SpeechToTextViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCDAE8D26317B4E002E29D9 /* SpeechToTextViewController.swift in Sources */,
 				BD4A5007262ACC3500BB8F4B /* ViewController.swift in Sources */,
 				BD4A5003262ACC3500BB8F4B /* AppDelegate.swift in Sources */,
 				BD4A5005262ACC3500BB8F4B /* SceneDelegate.swift in Sources */,
